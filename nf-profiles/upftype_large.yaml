@@ -1,8 +1,0 @@
-apiVersion: nfdeploy.tna.cloud.google.com/v1alpha1
-kind: UpfType
-metadata:
-  name: upflarge
-spec:
-  name: upflarge
-  UpfCapacityProfile:
-    profileName: upfCapacityProfile1
