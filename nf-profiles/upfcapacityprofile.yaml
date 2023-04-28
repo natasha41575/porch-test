@@ -1,0 +1,8 @@
+apiVersion: nfdeploy.tna.cloud.google.com/v1alpha1
+kind: UpfCapacityProfile
+metadata:
+  name: upfCapacityProfile1
+spec:
+  uplinkThroughput: 1M
+  downlinkThroughput: 20G
+  maximumConnections: 50000
